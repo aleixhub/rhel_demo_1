@@ -1,0 +1,23 @@
+---
+
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: index
+      label: "Module 1"
+    - name: module-02
+      label: "Module 2"
+    - name: module-03
+      label: "Podman ps"
+
+tabs:
+  - name: ">_ Root"
+    port: 443
+    path: /wetty
+    user: root
+    host: rhel
+    type: tty
+  - name: ">_ rhel"
+    port: 443
+    path: /wetty
