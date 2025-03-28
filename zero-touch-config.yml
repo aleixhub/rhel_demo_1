@@ -19,5 +19,5 @@ tabs:
     host: rhel
     type: tty
   - name: ">_ rhel"
-    port: 443
-    path: /wetty
+    url: https://asciidocfx.com
+    external: true
